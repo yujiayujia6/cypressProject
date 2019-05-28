@@ -7,18 +7,7 @@ context('example test', () => {
     //   cy.get('.dropdown-menu').contains('Navigation').click()
     })
   
-    it('cy.visit() - visit a remote url', () => {
-      // Pass options to the visit
-    //   cy.visit('https://example.cypress.io/commands/navigation', {
-    //     timeout: 50000, // increase total time for the visit to resolve
-    //     onBeforeLoad (contentWindow) {
-    //       // contentWindow is the remote page's window object
-    //       expect(typeof contentWindow === 'object').to.be.true
-    //     },
-    //     onLoad (contentWindow) {
-    //       // contentWindow is the remote page's window object
-    //       expect(typeof contentWindow === 'object').to.be.true
-    //     },
-    //   })
+    it('first test case', () => {
+        cy.get('h3').contains('Select Store').should("visible");
     })
   })
