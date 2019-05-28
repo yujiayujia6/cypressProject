@@ -1,0 +1,7 @@
+{
+    "baseUrl": "http://pl-sit.cashconverters.co.nz:9009/",
+    "env": {
+      "username": "jenfan",
+      "password": "pass123!"
+    }
+  }

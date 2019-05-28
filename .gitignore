@@ -1,0 +1,5 @@
+node_modules
+supertest_testScripts/coverage/
+supertest_testScripts/.nyc_output/
+.nyc_output/
+coverage/
