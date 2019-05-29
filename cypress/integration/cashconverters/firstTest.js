@@ -16,6 +16,8 @@ context('example test', () => {
             cy.get('.dropdown-menu[aria-expanded]').contains(td.store).click();
             cy.get('form').submit();
             cy.get('#login').contains(td.store).should("visible");
+            cy.get('a[href="/user/logout"]').click();
+            cy.get('h3').contains('Please enter login details below').should("visible");
         })
     })
     
